@@ -15,5 +15,5 @@ The core of this is taken from an exercise at the end of [Functional-Light JS](h
 The addition I've made is to visualize the stock prices progressively using [D3.js](https://d3js.org/).
 
 ## A few tests
-No full test coverage here, but I added some tests in jasmine visible at `SpecRunner.html` for personal practice and to help me reason through some of the code of the core of the project.
+No full test coverage here, but I added some tests in jasmine visible at `SpecRunner.html` for personal practice and to help me reason through some of the code in the core of the project.
 
