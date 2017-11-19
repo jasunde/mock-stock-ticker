@@ -28,7 +28,7 @@ describe('setElemAttr', function () {
   });
 });
 
-describe('matchingStock', function () {
+describe('matchingStockId', function () {
 
   var stock1 = {
     getAttribute: () => 1
@@ -38,8 +38,8 @@ describe('matchingStock', function () {
     getAttribute: () => 4
   };
   
-  var match1 = matchingStock(1);
-  var match4 = matchingStock(4);
+  var match1 = matchingStockId(1);
+  var match4 = matchingStockId(4);
 
   it('should return a function that matches a given stock with a given id', function () {
     expect(match1(stock1)).toBe(true);
